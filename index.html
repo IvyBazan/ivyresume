@@ -28,7 +28,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                 </ul>
             </div>
@@ -61,37 +61,65 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><a href="https://web.archive.org/web/20250305042739/https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html">Amazon SageMaker docs restructure</a></h3>
-                            <p>Situation: </p>
-                            <p>Task: </p>
-                            <p>Action: </p>
-                            <p>Result: </p>
+                            <p><b><i>Situation:</i></b> The documentation for the flagship ML offering from Amazon was suffering from low customer satisfaction, a high number of support requests, and slow adoption rates for new features.</p>
+                            <p><b><i>Task:</i></b> The head of the documentation org requested that I investigate the source of the issues and make any necessary improvements over the course of the quarter.</p>
+                            <p><b><i>Action:</i></b> To address the issue, I began by collecting performance metrics for the documentation. Because I was going to be auditing the entire 1600 page doc set anyway, I decided to restructure the content for LLM ingestion as well. I then created a v-team with PMs, engineering leads, developer advocates, and senior leadership to gather more information about customer needs and documentation gaps. After creating an in-depth plan of the best course of action to improve the content, I mobilized the existing 10-person SageMaker docs team to complete the work over the course of 3 months.</p>
+                            <p><b><i>Result:</i></b> We completed the effort ahead of schedule and</p>
+                   <ul>
+                        <li>
+                            <span class="fa-li"></span>
+                            Fixed all known content structure and accessibility issues.
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                            Improved the customer satisfaction scores for the top 10 pages, which represented about 500,000 page views a year.
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                           Ensured all pages were ready for LLM ingestion.
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                            Decreased the average customer time-to-adoption, as measured by the PM organization.
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                            Addressed the most common customer complaints and decreased the total number of customer support requests.
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                            Archived ~100 pages that had low impact and a low number of page views.
+                        </li>
+                    </ul>
+
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><a href="https://web.archive.org/web/20260314094935/https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-run">Cortex Agents REST API</a></h3>
-                            <p>Situation: </p>
-                            <p>Task: </p>
-                            <p>Action: </p>
-                            <p>Result: </p>
+                            <p><b><i>Situation:</i></b> Snowflake Cortex was launching support for a streaming REST API that allowed customers to interact with Cortex Agents. Snowflake’s existing REST API documentation model didn’t support streaming APIs. The launch had a very tight turnaround time.</p>
+                            <p><b><i>Task:</i></b> Prepare the streaming REST API for launch.</p>
+                            <p><b><i>Action:</i></b>  Because of the tight delivery time, I decided to manually document the REST API for the initial launch. I met with the engineering SME and used the API spec to draft the content. After the content was approved by engineering, I iterated over the structure and prepped it in time for launch. This short-term solution resulted in frequent manual updates to the content as the product evolved. To solve this, I worked with engineering to automatically generate the REST API reference content from the source code.</p>
+                            <p><b><i>Result:</i></b> As a result of this effort, the content was ready and accurate at launch. The automation work ensured that the content was always up-to-date and increased collaboration between the engineering and documentation teams.</p>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><a href="https://web.archive.org/web/20250305042739/https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html">Targeted recommendation page</a></h3>
-                            <p>Situation: </p>
-                            <p>Task: </p>
-                            <p>Action: </p>
-                            <p>Result: </p>
+                            <p><b><i>Situation:</i></b> Customers were overwhelmed by the number of offerings for each step in the ML lifecycle and weren’t sure which feature they should use.</p>
+                            <p><b><i>Task:</i></b> Organize the offerings to communicate their use and direct customers to the best match for them.</p>
+                            <p><b><i>Action:</i></b> I started by meeting with the Customer Experience team to review their research about recommendation content. After those meetings, I created a template that identified the 3 most important customer personas and their associated recommendations. To implement the template, I started with a subset of steps in the ML lifecycle and met with the writer experts and engineers to draft the initial set of recommendation pages.
+</p>
+                            <p><b><i>Result:</i></b> We saw a decrease in bounce-rate for the pages covering each ML lifecycle step. Instead of leaving the page, a higher percentage of customers continued on to the recommended pages. We also received positive direct customer feedback about the recommendations.</p>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><a href="https://web.archive.org/web/20260224103440/https://docs.snowflake.com/en/user-guide/snowflake-cortex/snowflake-intelligence">Snowflake Intelligence overview</a></h3>
-                            <p>Situation: </p>
-                            <p>Task: </p>
-                            <p>Action: </p>
-                            <p>Result: </p>
+                            <p><b><i>Situation:</i></b> The Snowflake Intelligence launch was part of Snowflake’s fall conference. Because of limited time before launch, the documentation was published with the minimum amount of information needed on a single page. As time went on, content was added to the single page and created a wall of text that was difficult to parse.</p>
+                            <p><b><i>Task:</i></b> Update the documentation structure to make it easily readable and maintainable as more content is added.</p>
+                            <p><b><i>Action:</i></b> To get more context for the restructure, I met with the PM of the feature. We decided on a format that gave customers foundational information about the feature in the overview page and split all other content into distinct pages. This overview page described the key features and included a diagram that outlined the workflow and components. The new pages were structured around the tasks customers need to complete. Customers could select their method of interaction and only see information relevant to their use case.</p>
+                            <p><b><i>Result:</i></b> The updated documentation decreased average customer adoption time from months to weeks. Feedback from important customers indicated that they had an easier time finding key information. The new documentation structure also made it easier to add information as new capabilities were launched. Because customers only saw information about their method of interaction with Snowflake Intelligence, the pages became easily readable.</p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +134,7 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Skills-->
+            <!-- Skills 
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
@@ -147,11 +175,12 @@
                 </div>
             </section>
             <hr class="m-0" />
+-->
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>When I'm not focused on writing, my passions tend to take me outdoors. Aside from my own adventures camping and fishing, I've spent the last 6 years volunteering with a national non-profit organization focused on getting people of color into the outdoors. I currently serve as the head of the Washington State chapter in addition to 1:1 mentorship and event programming.</p>
+                    <p>When I'm not focused on writing, my passions tend to take me outdoors. Aside from my own adventures camping and fishing, I've spent the last 6 years volunteering with a national non-profit organization focused on getting people of color into the outdoors. I currently serve as the head of the Washington State chapter in addition to 1:1 mentorship and event programming. Last year, I was named National Member of the Year.</p>
                     <p class="mb-0">My latest personal achievement has been earning my Wilderness First Responder certification from the National Outdoor Leadership School.</p>
                 </div>
             </section>
